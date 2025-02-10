@@ -22,11 +22,9 @@ pipeline {
        }
        stage ('Test') {
   steps {
-  sh '''
-     echo Test stage
-     echo nmp --version
-     ls -la 
-  '''
+     echo 'Test stage'
+     
          }
        }
     }
+}
