@@ -27,6 +27,6 @@ pipeline {
      echo nmp --version
      ls -la 
   '''
-
+         }
+       }
     }
-}
