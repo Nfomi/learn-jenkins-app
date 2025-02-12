@@ -48,7 +48,7 @@ pipeline {
          node_modules/.bin/serve -s build
          npx playwright test
      '''  
-         }
+         } 
        }
     }
 
