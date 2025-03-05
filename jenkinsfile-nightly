@@ -1,15 +1,14 @@
 pipeline {
     agent any
+    
+    stages {
 
-    }
-
-    stages {g
-
-        stage('Build Docker Image') {
+        stage('Docker') {
             steps {
                 sh 'docker build -t my-playwright .'
             }
         }
+        
+     }
 
-    }
-}   
+}
